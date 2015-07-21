@@ -1,0 +1,27 @@
+# .gitignore for spring boot application
+
+# application build files
+/build
+
+# application gradle files and dependencies
+/.gradle
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# "temporary" build files
+/target
+
+#Idea files
+/*.iml
+/.idea
+
+/wrapper
+
+/out
+
