@@ -22,9 +22,12 @@ public class PersonService {
         return personRepository.findAll();
     }
 
-    public Person findById(){
-        return null;
+    public Person findById(Long id){
+        return personRepository.findOne(id);
     }
 
+    public Person save(Person person){
+        return personRepository.save(person);
+    }
 
 }

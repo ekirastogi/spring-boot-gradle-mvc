@@ -11,6 +11,11 @@ import javax.persistence.Id;
 @Entity
 public class Person {
 
+    @Override
+    public String toString(){
+        return this.name;
+    }
+
     @Id
     @GeneratedValue
     @Column(name = "id")
