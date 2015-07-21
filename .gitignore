@@ -5,6 +5,7 @@
 
 # application gradle files and dependencies
 /.gradle
+/lib
 
 # logs
 /stacktrace.log
