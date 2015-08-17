@@ -38,7 +38,6 @@ configurations {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("org.sitemesh:sitemesh:3.0.0")
     compile("javax.servlet:jstl:1.2")
     runtime("mysql:mysql-connector-java")
     compile("org.springframework.boot:spring-boot-starter-jdbc")
